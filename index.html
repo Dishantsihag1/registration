@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>New Registration</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form action="">
+            <div class="container">
+                <h1>TOPPER.CODER PAPER</h1>
+                <p>Plase Fill The Form Form For Attemting Test</p>
+                <hr>
+                <label for="uname"><b>NAME</b></label>
+                <input type="text" placeholder="enter your full name" name="uname" id="uname" required>
+                <label for="email"><b>email</b></label>
+                <input type="email" placeholder="enter your email" name="email" id="email" required>
+                <label for="pwd"><b>password</b></label>
+                <input type="password" placeholder="enter your password" name="pwd" id="pwd" onblur="checkpwdpat()" equired>
+                <label for="wpwd">password has be lowercase and upper case there should be 6 degit there should be a tag </label>
+                <p>By creating an account you agree to our <a href="#">Terms & Conditions</a>.</p>
+            
+                <button type="button" id="registerbtn" onclick="reg()">Register</button>
+                <label id="success">Registeration Successful</label>
+             </div>
+
+        </form>
+    </body>
+</html>
